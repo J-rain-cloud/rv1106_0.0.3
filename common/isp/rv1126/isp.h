@@ -1,6 +1,14 @@
 // Copyright 2021 Rockchip Electronics Co., Ltd. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
+#ifndef __ISP_H__
+#define __ISP_H__
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 int rk_isp_init(int cam_id, char *iqfile_path);
 int rk_isp_deinit(int cam_id);
 // image adjustment
@@ -88,3 +96,7 @@ int rk_isp_af_zoom_out(int cam_id);
 int rk_isp_af_focus_in(int cam_id);
 int rk_isp_af_focus_out(int cam_id);
 int rk_isp_af_focus_once(int cam_id);
+
+#ifdef __cplusplus
+}
+#endif

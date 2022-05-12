@@ -1,6 +1,14 @@
 // Copyright 2021 Rockchip Electronics Co., Ltd. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
+
+#ifndef __COMMON_H__
+#define __COMMON_H__
+
+#ifdef __cplusplus
+extern "C"{
+#endif
+
 #include <errno.h>
 #include <getopt.h>
 #include <pthread.h>
@@ -41,3 +49,9 @@ void rk_signal_give(void *sem);
 void rk_signal_reset(void *sem);
 
 long long rkipc_get_curren_time_ms();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

@@ -5,6 +5,12 @@
 #ifndef _RK_LOGGER_H_
 #define _RK_LOGGER_H_
 
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 #ifdef ENABLE_MINILOGGER
 #include "minilogger/log.h"
 #else
@@ -66,5 +72,9 @@ extern int rkipc_log_level;
 		else                                                                                       \
 			fprintf(stderr, "[%s][%s]:" format, LOG_TAG, __FUNCTION__, ##__VA_ARGS__);             \
 	} while (0)
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

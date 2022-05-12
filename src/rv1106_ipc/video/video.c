@@ -5,6 +5,8 @@
 #include "video.h"
 #include "rockiva.h"
 
+#include "npu.h"
+
 #define HAS_VO 0
 #if HAS_VO
 #include <rk_mpi_vo.h>
@@ -196,10 +198,14 @@ static void *rkipc_get_vi_1(void *arg) {
 		// 5.get the frame
 		ret = RK_MPI_VI_GetChnFrame(pipe_id_, VIDEO_PIPE_1, &stViFrame, 1000);
 		if (ret == RK_SUCCESS) {
+			void * vir_data = RK_MPI_MB_Handle2VirAddr(stViFrame.stVFrame.pMbBlk);
+			int fd = RK_MPI_MB_Handle2Fd(stViFrame.stVFrame.pMbBlk);
 			uint64_t phy_data = RK_MPI_MB_Handle2PhysAddr(stViFrame.stVFrame.pMbBlk);
 			LOG_DEBUG("phy_data %p, loop:%d pts:%" PRId64 " ms\n", phy_data, loopCount,
 			          stViFrame.stVFrame.u64PTS / 1000);
-
+			recv_frame(vir_data, phy_data, stViFrame.stVFrame.u32Width, 
+			 		   stViFrame.stVFrame.u32Height, stViFrame.stVFrame.enPixelFormat, fd);
+#if 0
 			ret = rkipc_rknn_object_get(&ba_result);
 			if ((!ret && ba_result.objNum) ||
 			    ((ret == -1) && (rkipc_get_curren_time_ms() - last_ba_result_time < 300))) {
@@ -247,8 +253,19 @@ static void *rkipc_get_vi_1(void *arg) {
 					//          object->firstTrigger.triggerType);
 				}
 				releasebuffer_handle(handle);
-			}
+			}*/
+#else
+			handle = importbuffer_physicaladdr(phy_data, &param);
+			src = wrapbuffer_handle_t(handle, stViFrame.stVFrame.u32Width,
+				                      stViFrame.stVFrame.u32Height, stViFrame.stVFrame.u32Width,
+				                      stViFrame.stVFrame.u32Height, RK_FORMAT_YCbCr_420_SP);
 
+			// src = wrapbuffer_physicaladdr((void *)phy_data, (int)stViFrame.stVFrame.u32Width, 
+			// 				(int)stViFrame.stVFrame.u32Height, RK_FORMAT_YCbCr_420_SP);
+			// rga_nv12_border(src, 0, 0, 100, 100, 2, 0x000000ff);
+			im_rect box = {0, 0, 100, 200};
+			imdraw(src, box, 0x000000ff);
+#endif
 			// send venc
 			ret = RK_MPI_VENC_SendFrame(VIDEO_PIPE_1, &stViFrame, 1000);
 			if (ret)
@@ -645,9 +662,11 @@ int rkipc_pipe_0_init() {
 	}
 	tmp_smart = rk_param_get_string("video.0:smart", NULL);
 	tmp_svc = rk_param_get_string("video.0:svc", NULL);
-	if (!strcmp(tmp_svc, "open")) {
-		venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_TSVC4;
-	} else if (!strcmp(tmp_smart, "open")) {
+	// if (!strcmp(tmp_svc, "open")) {
+	// 	printf("--------video svc close--------\n");
+	// 	venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_TSVC4;
+	// } else 
+	if (!strcmp(tmp_smart, "open")) {
 		venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_SMARTP;
 		venc_chn_attr.stGopAttr.s32VirIdrLen = venc_chn_attr.stRcAttr.stH265Vbr.u32SrcFrameRateNum /
 		                                       venc_chn_attr.stRcAttr.stH265Vbr.u32SrcFrameRateDen;
@@ -890,9 +909,10 @@ int rkipc_pipe_1_init() {
 	}
 	tmp_smart = rk_param_get_string("video.1:smart", NULL);
 	tmp_svc = rk_param_get_string("video.1:svc", NULL);
-	if (!strcmp(tmp_svc, "open")) {
-		venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_TSVC4;
-	} else if (!strcmp(tmp_smart, "open")) {
+	// if (!strcmp(tmp_svc, "open")) {
+	// 	venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_TSVC4;
+	// } else 
+	if (!strcmp(tmp_smart, "open")) {
 		venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_SMARTP;
 	} else {
 		venc_chn_attr.stGopAttr.enGopMode = VENC_GOPMODE_NORMALP;

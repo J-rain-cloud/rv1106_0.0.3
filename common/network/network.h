@@ -4,6 +4,10 @@
 #ifndef __NETWORK_H__
 #define __NETWORK_H__
 
+#ifdef __cplusplus
+extern "C"{
+#endif
+
 #include <net/if.h>
 
 #include <arpa/inet.h>
@@ -234,4 +238,9 @@ int rk_wifi_connect_with_ssid(const char *ssid, const char *psk);
 int rk_wifi_forget_with_ssid(const char *ssid);
 // int RK_wifi_getSavedInfo(RK_WIFI_SAVED_INFO *pSaveInfo); //获取配置过的WiFi
 // int RK_wifi_connect_with_ssid(char *ssid);               // 已经连过的
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif

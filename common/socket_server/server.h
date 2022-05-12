@@ -4,7 +4,15 @@
 #ifndef __RKIPC_SERVER__
 #define __RKIPC_SERVER__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 int rkipc_server_init(void);
 int rkipc_server_deinit(void);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
