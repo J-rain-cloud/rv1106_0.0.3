@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rkipc.dir/main.cc.o"
+  "CMakeFiles/rkipc.dir/audio/audio.c.o"
+  "CMakeFiles/rkipc.dir/video/video.c.o"
+  "CMakeFiles/rkipc.dir/npu/draw_rect.c.o"
+  "CMakeFiles/rkipc.dir/npu/npu.cc.o"
+  "CMakeFiles/rkipc.dir/npu/postprocess.cc.o"
+  "CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/common.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/param/param.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/system/system.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/network.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/event/event.c.o"
+  "CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o"
+  "rkipc.pdb"
+  "rkipc"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/rkipc.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

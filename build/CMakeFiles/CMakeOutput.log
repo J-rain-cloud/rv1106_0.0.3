@@ -1,0 +1,601 @@
+The system is: Linux - 5.4.0-109-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf1f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf1f7.dir/build.make CMakeFiles/cmTC_bf1f7.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bf1f7.dir/testCCompiler.c.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_bf1f7.dir/testCCompiler.c.o   -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bf1f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf1f7.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_bf1f7.dir/testCCompiler.c.o  -o cmTC_bf1f7 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_692c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_692c8.dir/build.make CMakeFiles/cmTC_692c8.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_692c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_692c8.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc     -v CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o  -o cmTC_692c8 
+Using built-in specs.
+COLLECT_GCC=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper
+Target: arm-rockchip830-linux-uclibcgnueabihf
+Configured with: /opt/.build/arm-rockchip830-linux-uclibcgnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-rockchip830-linux-uclibcgnueabihf --prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf --with-sysroot=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv7-a --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpfr=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpc=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-isl=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.3.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/
+LIBRARY_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_692c8'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+ /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYu6qq2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_692c8 /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_692c8'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_692c8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_692c8.dir/build.make CMakeFiles/cmTC_692c8.dir/build]
+  ignore line: [make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_692c8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_692c8.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc     -v CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o  -o cmTC_692c8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-rockchip830-linux-uclibcgnueabihf]
+  ignore line: [Configured with: /opt/.build/arm-rockchip830-linux-uclibcgnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-rockchip830-linux-uclibcgnueabihf --prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf --with-sysroot=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv7-a --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpfr=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpc=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-isl=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_692c8'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4']
+  link line: [ /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYu6qq2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_692c8 /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYu6qq2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_692c8] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_692c8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/lib]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/lib;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eec3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eec3a.dir/build.make CMakeFiles/cmTC_eec3a.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_eec3a.dir/feature_tests.c.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_eec3a.dir/feature_tests.c.o   -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eec3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec3a.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_eec3a.dir/feature_tests.c.o  -o cmTC_eec3a 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71aee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71aee.dir/build.make CMakeFiles/cmTC_71aee.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_71aee.dir/feature_tests.c.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_71aee.dir/feature_tests.c.o   -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_71aee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71aee.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_71aee.dir/feature_tests.c.o  -o cmTC_71aee 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7baf1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7baf1.dir/build.make CMakeFiles/cmTC_7baf1.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7baf1.dir/feature_tests.c.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_7baf1.dir/feature_tests.c.o   -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7baf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7baf1.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_7baf1.dir/feature_tests.c.o  -o cmTC_7baf1 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a771/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a771.dir/build.make CMakeFiles/cmTC_2a771.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2a771.dir/testCXXCompiler.cxx.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_2a771.dir/testCXXCompiler.cxx.o -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2a771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a771.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_2a771.dir/testCXXCompiler.cxx.o  -o cmTC_2a771 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc1b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc1b5.dir/build.make CMakeFiles/cmTC_cc1b5.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cc1b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc1b5.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++      -v CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cc1b5 
+Using built-in specs.
+COLLECT_GCC=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++
+COLLECT_LTO_WRAPPER=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper
+Target: arm-rockchip830-linux-uclibcgnueabihf
+Configured with: /opt/.build/arm-rockchip830-linux-uclibcgnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-rockchip830-linux-uclibcgnueabihf --prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf --with-sysroot=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv7-a --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpfr=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpc=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-isl=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.3.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/
+LIBRARY_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc1b5' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+ /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6LtLVz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_cc1b5 /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc1b5' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cc1b5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cc1b5.dir/build.make CMakeFiles/cmTC_cc1b5.dir/build]
+  ignore line: [make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cc1b5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc1b5.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++      -v CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cc1b5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-rockchip830-linux-uclibcgnueabihf]
+  ignore line: [Configured with: /opt/.build/arm-rockchip830-linux-uclibcgnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-rockchip830-linux-uclibcgnueabihf --prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf --with-sysroot=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv7-a --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpfr=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-mpc=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --with-isl=/opt/.build/arm-rockchip830-linux-uclibcgnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/opt/x-tool/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc1b5' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4']
+  link line: [ /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6LtLVz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_cc1b5 /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6LtLVz.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cc1b5] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib]
+    arg [-L/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_cc1b5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o] ==> ignore
+    arg [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/lib]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib]
+  collapse library dir [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib] ==> [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/lib;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib;/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f820.dir/build.make CMakeFiles/cmTC_7f820.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7f820.dir/feature_tests.cxx.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_7f820.dir/feature_tests.cxx.o -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7f820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f820.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_7f820.dir/feature_tests.cxx.o  -o cmTC_7f820 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56394/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56394.dir/build.make CMakeFiles/cmTC_56394.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_56394.dir/feature_tests.cxx.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_56394.dir/feature_tests.cxx.o -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56394.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_56394.dir/feature_tests.cxx.o  -o cmTC_56394 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71227/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71227.dir/build.make CMakeFiles/cmTC_71227.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_71227.dir/feature_tests.cxx.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_71227.dir/feature_tests.cxx.o -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_71227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71227.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_71227.dir/feature_tests.cxx.o  -o cmTC_71227 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b2c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b2c5.dir/build.make CMakeFiles/cmTC_2b2c5.dir/build
+make[1]: 进入目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2b2c5.dir/feature_tests.cxx.o
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_2b2c5.dir/feature_tests.cxx.o -c /home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2b2c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b2c5.dir/link.txt --verbose=1
+/home/ubuntu/rv1106_sdk_0.0.3/rv1106-0.1/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_2b2c5.dir/feature_tests.cxx.o  -o cmTC_2b2c5 
+make[1]: 离开目录“/home/ubuntu/rv1106_sdk_0.0.3/rv1106/project/app/rkipc/git_rkipc_0.0.3/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
